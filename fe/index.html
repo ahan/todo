@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" ng-app="TD">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>To Do</title>
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="style/style.css" rel="stylesheet"/>
+
+</head>
+<body ng-controller="MainCtrl">
+
+<div class="container">
+	<div class="page-header">
+		<h1>Non-responsive Bootstrap</h1>
+		<p class="lead">Disable the responsiveness of Bootstrap by fixing the width of the container and using the first grid system tier.</p>
+	</div>
+
+	<div ng-view class="royal-theater"></div>
+
+</div>
+
+<!--
+<nav class="nav-menus">
+	<a ng-repeat="menu in menus" class="nav-menus-item" id="route_{{ menu.ctrl }}" href="#{{ menu.url }}">{{ menu.text }}</a>
+</nav>
+-->
+
+<!--
+<script src="js/app.js"></script>
+<script src="js/controllers.js"></script>
+-->
+
+<script src="vendor/jquery/jquery-2.0.3.min.js"></script>
+<script src="vendor/angular/angular.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/services.js"></script>
+<script src="js/controllers.js"></script>
+
+</body>
+</html>
